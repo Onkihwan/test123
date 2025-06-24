@@ -1,8 +1,20 @@
 name = input()
-if name == 'plus':
+a = float(input())
+b = float(input())
+if name == '+':
 
-    a = int(input())
-    b = int(input())
     print(a+b)
 
-else : print('히히종료')
+elif name == '-':
+
+    print(a-b)
+
+elif name == '*':
+    print(a*b)
+elif name == '/':
+    if b==0:
+        print('zero division error')
+    else:
+        print(a/b)
+
+else : print('히히종료~!~!~!~!~!~!~!~!')
