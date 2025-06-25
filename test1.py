@@ -17,4 +17,6 @@ elif name == '/':
     else:
         print(a/b)
 
-else : print('히히종료')
+
+else : print('히히종료123222234512342345245')
+
