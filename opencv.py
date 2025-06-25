@@ -13,6 +13,7 @@ img = np.zeros((100, 100, 3), dtype=np.uint8)
 cv2.rectangle(img, (40, 40), (80, 80), (255, 255, 255), -1)
 
 # 이미지 저장
-cv2.imwrite('test_image.png', img)
+cv2.imwrite('test_image.png1', img)
 
 print("Test image saved as 'test_image.png'")
+s
