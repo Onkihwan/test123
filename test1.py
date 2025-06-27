@@ -17,8 +17,5 @@ elif name == '/':
     else:
         print(a/b)
 
-
 else : print('finish_^^;;iwantgohome')
-
-
 
